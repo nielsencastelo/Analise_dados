@@ -8,5 +8,7 @@
  - Ridge
  - SVM
  - Bayesian
+ - Polinomial
+ - Regressão Linear
  
  
