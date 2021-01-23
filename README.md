@@ -1,11 +1,9 @@
 # Analise_dados
- Análise de dados Trustly
+ Análise de dados
  Algoritmos
  - Decision Tree
- - Knn
  - Logistica
  - Random Forest
- - Ridge
  - SVM
  - Bayesian
  - Polinomial
