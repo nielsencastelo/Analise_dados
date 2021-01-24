@@ -43,7 +43,7 @@ Com isso, segui estes passos:
 
 ### B - Como foi definida a função de Custo utilizada?
 
-Utilizei vários métodos de cálculo da função de custo, em conjunto de indicadores para definir sua qualidade (MAE, MSE, RMSE e Score)
+Utilizei vários métodos de cálculo da função de custo, em conjunto de indicadores para definir sua qualidade (MAE, MSE, RMSE)
 
 ### Os métodos utilizaram para Regressão foram:
 
