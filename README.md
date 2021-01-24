@@ -1,6 +1,7 @@
 # Teste Data Science - Cognitivo.ai
 
-Os códigos contidos nesse repositório caracterizam a análise exploratória dos dados encontrados em [AirBnb Data](http://insideairbnb.com/get-the-data.html) , avaliando sua consistência e correlação.
+Os códigos contidos nesse repositório caracterizam a análise exploratória dos dados encontrados em [AirBnb Data](http://insideairbnb.com/get-the-data.html), 
+avaliando sua consistência e correlação.
 
 ## Modelagem
 
@@ -9,8 +10,8 @@ Entro em mais detalhes nessa tomada de decisão no PPT contido nesse repositóri
 
 ## Linguagem
 
-Utilizei Python com Pandas, seaborn, sklearn e numpy para desenvolvimento tanto das visualizações quanto códigos. Logo no início dos códigos dá para ver minhas instruções de importação.
-
+Utilizei Python com Pandas, seaborn, sklearn e numpy para desenvolvimento tanto das visualizações quanto códigos. 
+Logo no início dos códigos dá para ver minhas instruções de importação.
 
 ````
 import pandas as pd
@@ -44,7 +45,7 @@ Com isso, segui estes passos:
 
 Utilizei vários métodos de cálculo da função de custo, em conjunto de indicadores para definir sua qualidade (MAE, MSE, RMSE e Score)
 
-### Os métodos utilizaram foram:
+### Os métodos utilizaram para Regressão foram:
 
 1. Decision Tree
 2. Bayesian
@@ -58,20 +59,23 @@ Todos foram utilizados no dataframe que criei para review_scores_rating. O qual 
 
 ### Qual foi o critério utilizado na seleção do Modelo final?
 
-Após escolher que trabalharia com review_scores_rating, e tratar prontamente seus dados e remover nans. Fiz vários testes executando vários modelos e testando seu score. 
+Após escolher que trabalharia com review_scores_rating, e tratar prontamente seus dados e remover nans. Fiz vários testes executando vários modelos e
+utilzando varios metodos de avalicao (MAE, MSE, RMSE). 
 
-O que obteve melhor MSE e maior score (0.71) foi o Random Forest, por isso o mesmo foi escolhido.
-
-![alt text](https://github.com/nielsencastelo/Analise_dados/blob/master/correlacao_price.png)
+O que obteve melhor MSE e maior score (0.71) foi o Random Forest, entretanto, a Rede Neural foi superior a todos e este foi escolhido.
 
 
 ### D - Qual foi o critério utilizado para validação do Modelo
 
-Utilizei (MAE, MSE, RMSE e Score) para definir o quão preciso o modelo era, e pelo mesmo atender os valores esperados em todos os quesitos se mostrou válido para utilização.
+Utilizei validacao cruzada k-fold Cross Validation e calculamos a média e desvio padrão dos 10 testes realizado.
 
 ### E - Quais evidências você possui de que seu modelo é suficientemente bom?
 
-Além do fato de que os critérios (MAE, MSE, RMSE e Score) estão apresentando bons valores, a precisão de correlação de vários componentes do Data Frame ser superior a 50% e apresentar até valores maiores de 70% mostram que poderíamos trabalhar mais a fundo com estes dados.
+Além do fato de que os critérios (MAE, MSE, RMSE) e o Cross Validation estão apresentando bons valores, a precisão de correlação de vários componentes do Data Frame ser superior a 50% 
+e apresentar até valores maiores de 70% mostram que poderíamos trabalhar mais a fundo com estes dados.
+
+### Slide com mais detalhes
+O slide 'Apresentação-Nielsen.pptx' apresenta mais informações e imagens sobre a implementacao e trabalhos futuros.
 
 
 
