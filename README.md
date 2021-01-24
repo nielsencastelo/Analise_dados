@@ -52,6 +52,7 @@ Utilizei vários métodos de cálculo da função de custo, em conjunto de indic
 4. Polinomial
 5. Logística
 6. SVM
+7. Rede Neural
 
 Todos foram utilizados no dataframe que criei para review_scores_rating. O qual se mostrou com maior correlação entre suas colunas após tratamento. 
 
