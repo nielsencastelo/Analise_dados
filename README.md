@@ -62,6 +62,8 @@ Após escolher que trabalharia com review_scores_rating, e tratar prontamente se
 
 O que obteve melhor MSE e maior score (0.71) foi o Random Forest, por isso o mesmo foi escolhido.
 
+![Alt text](https://github.com/nielsencastelo/Analise_dados/blob/master/correlacao_score_rationg.png?raw=true "Correlacao Score Ration")
+
 
 ### D - Qual foi o critério utilizado para validação do Modelo
 
