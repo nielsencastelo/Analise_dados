@@ -13,7 +13,7 @@ Entro em mais detalhes nessa tomada de decisão no PPT contido nesse repositóri
 Utilizei Python com Pandas, seaborn, sklearn e numpy para desenvolvimento tanto das visualizações quanto códigos. 
 Logo no início dos códigos dá para ver minhas instruções de importação.
 
-````
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -74,7 +74,7 @@ Utilizei validacao cruzada k-fold Cross Validation e calculamos a média e desvi
 Além do fato de que os critérios (MAE, MSE, RMSE) e o Cross Validation estão apresentando bons valores, a precisão de correlação de vários componentes do Data Frame ser superior a 50% 
 e apresentar até valores maiores de 70% mostram que poderíamos trabalhar mais a fundo com estes dados.
 
-### Slide com mais detalhes
+## Slide com mais detalhes
 O slide 'Apresentação-Nielsen.pptx' apresenta mais informações e imagens sobre a implementacao e trabalhos futuros.
 
 
